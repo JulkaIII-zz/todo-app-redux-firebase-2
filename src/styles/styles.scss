@@ -1,0 +1,22 @@
+body {
+    //background-color: silver;
+    height: 100vh;
+    background: url(/img/back.jpeg) no-repeat center bottom;
+    background-size: cover;
+}
+
+.card {
+    background-color: none;
+}
+
+form {
+    padding: 20px;
+    
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+form button, form h5 {
+    margin: 20px 0;
+}
