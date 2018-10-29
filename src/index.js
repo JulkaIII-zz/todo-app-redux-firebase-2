@@ -32,3 +32,4 @@ store.firebaseAuthIsReady.then(() => {
     document.getElementById("root")
   );
 });
+window.__MUI_USE_NEXT_TYPOGRAPHY_VARIANTS__ = true; // for material-ui typography warning
