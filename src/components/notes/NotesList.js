@@ -2,6 +2,7 @@ import React from "react";
 import NoteSummary from "./NoteSummary";
 import { Link } from "react-router-dom";
 import CreateNote from "./CreateNote";
+import { toggleNote } from "../../store/actions/noteActions";
 
 const NoteList = ({ notes }) => {
   return (
@@ -10,9 +11,9 @@ const NoteList = ({ notes }) => {
       {notes &&
         notes.map(note => {
           return (
-            <Link to={`/note/${note.id}`} key={note.id}>
-              <NoteSummary note={note} key={note.id} />
-            </Link>
+            // <Link to={`/note/${note.id}`} key={note.id}>
+              <NoteSummary note={note} key={note.id} onClick={() => toggleNote(note.id)}/>
+            // </Link>
           );
         })}
     </div>
