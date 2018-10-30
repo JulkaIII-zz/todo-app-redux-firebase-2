@@ -1,0 +1,42 @@
+{
+  "name": "todo-redux",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "jest": "^23.6.0",
+    "postcss-loader": "^3.0.0",
+    "react-hot-loader": "^4.3.8",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.3.2",
+    "firebase": "^5.5.4",
+    "materialize-css": "^1.0.0-rc.2",
+    "moment": "^2.22.2",
+    "node-sass": "^4.9.3",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-redux": "^5.0.7",
+    "react-redux-firebase": "^2.1.8",
+    "react-router-dom": "^4.3.1",
+    "redux": "^3.5.2",
+    "redux-devtools": "^3.4.1",
+    "redux-firestore": "^0.5.8",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open --config ./webpack.dev.js --mode development",
+    "test": "jest"
+  }
+}
